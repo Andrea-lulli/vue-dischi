@@ -41,9 +41,10 @@ div {
 
 //testi delle card
 .titolo {
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 10px;
   font-size: 20px;
+  line-height: 20px;
 }
 .testo {
   color: rgba(106, 108, 104, 255);

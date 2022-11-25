@@ -1,5 +1,6 @@
 <template>
-  <div id="app">
+<div class="cont-100vh">
+    <div id="app">
 
     <!--  componente header -->
     <HeaderComp class="col-12" />
@@ -14,6 +15,9 @@
       />
     </div>
   </div>
+
+</div>
+
 </template>
 
 <script>
@@ -49,11 +53,19 @@ export default {
 </script>
 
 <style lang="scss">
+.cont-100vh{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(30, 45, 59, 255);
+  overflow: auto;
+}
+
 #app {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(30, 45, 59, 255);
+  
+  
 }
 .box-conteiner {
   width: 70%;
@@ -61,6 +73,6 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
-  padding-bottom: 80px;
+  
 }
 </style>

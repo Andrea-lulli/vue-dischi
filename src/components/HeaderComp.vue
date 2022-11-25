@@ -22,7 +22,7 @@ div {
   display: flex;
 
   img {
-    width: 100px;
+    width: 10%;
     fill: rgba(30, 214, 95, 255) !important;
   }
 }
