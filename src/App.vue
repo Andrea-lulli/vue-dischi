@@ -14,6 +14,7 @@
         :libreria="elem"
       />
     </div>
+    
   </div>
 
 </div>
@@ -75,4 +76,5 @@ export default {
   margin-top: 50px;
   
 }
+
 </style>
