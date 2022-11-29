@@ -56,7 +56,11 @@ export default {
           if (!this.generi.includes(singoloAlbum.genre)) {
             this.generi.push(singoloAlbum.genre);
           }
+
+        
         });
+
+        
       });
   },
 };
